@@ -718,6 +718,48 @@ nav {
     /* Center align the content within each flex item */
 }
 
+/* Advisor Section */
+#advisor {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.advisor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.advisor-container a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.advisor-container a:hover {
+    transform: scale(1.1);
+}
+
+.advisor-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Increased font size to match Contribution section */
+.advisor-container p {
+    font-size: 18px;
+    /* Matches contribution section */
+    color: #333;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
 /* Contribution Section */
 #contribution {
     text-align: center;
