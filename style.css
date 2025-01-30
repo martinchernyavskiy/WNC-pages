@@ -751,19 +751,19 @@ nav {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Increased font size to match Contribution section */
 .advisor-container p {
     font-size: 18px;
-    /* Matches contribution section */
     color: #333;
     max-width: 700px;
     line-height: 1.6;
 }
 
+
+
 /* Contribution Section */
 #contribution {
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px 20px;
     background-color: #f4f4f4;
 }
 
